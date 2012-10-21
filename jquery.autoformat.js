@@ -23,8 +23,7 @@
     });
 
     function autoFormat() {
-        var temp = $(this).val().thousands();
-        $(this).val(temp);
+        $(this).val($(this).val().thousands());
     }
 
 })(jQuery, document, window);
